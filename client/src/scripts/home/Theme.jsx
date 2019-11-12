@@ -9,14 +9,11 @@ class Theme extends Component {
 				<div className="Theme ">
 					<div className="row ThemeRow ">
 						<div className="ThemeImage  col-sm-12 col-md-6">
-							<div className="heading link--kukuri onPhone">
-								Theme
-							</div>
-
+						
 							<img src={themeImg} className="Themeimg" />
 						</div>
 						<div className="col-sm-12 col-md-6 text">
-							<div className="heading link--kukuri onPc">
+							<div className="heading link--kukuri">
 								Theme
 							</div>
 							<div className="textMore">
