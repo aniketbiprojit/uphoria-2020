@@ -10,7 +10,7 @@ class Theme extends Component {
 					<div className="row ThemeRow ">
 						<div className="ThemeImage  col-sm-12 col-md-6">
 						
-							<img src={themeImg} className="Themeimg" />
+							<img src={themeImg} className="Themeimg" alt="theme" />
 						</div>
 						<div className="col-sm-12 col-md-6 text">
 							<div className="heading link--kukuri">
@@ -23,9 +23,7 @@ class Theme extends Component {
 								fashion to show the inner workings of the
 								unconscious mind. A projection of the superior
 								qualities of the liberated, irrational
-								unconscious mind. A wave of art that envisioned
-								dreamlike pieces, like windows into a strange
-								world beyond waking life.
+								unconscious mind.
 								<br />
 								<br />A psychic automatism in its pure state, by
 								which one proposes to express the actual

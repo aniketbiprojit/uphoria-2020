@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "../../styles/home/Upper.scss";
-import Upperimg from '../../assets/1.jpg'
+// import Upperimg from '../../assets/1.jpg'
 class Upper extends Component {
 	state = {}
 	render() {
