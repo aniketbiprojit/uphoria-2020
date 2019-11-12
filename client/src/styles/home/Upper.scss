@@ -1,15 +1,35 @@
+.Upper {
 
-.Upper{
-  height:100vh;
-    background-image:url("../../assets/1.jpg");
-    background-position: center;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-        @media only  screen and (max-width:768px){
-            height:40vh;
-        }
-        @media only  screen and (min-width:769px) and (max-width:1023px){
-            height:40vh;
-        }
+	.navUpper {
+		height: 5rem;
+		
+		.nav {
+			font-weight: 900;
+			font-size: 2.5rem;
+			color: #efd52a;
+
+			padding-right: 40px;
+			@media only screen and (max-width: 768px) {
+				font-size: 1rem;
+			}
+			@media only screen and (min-width: 769px) and (max-width: 1023px) {
+				height: 100vh;
+			}
+		}
+	}
+	height: 100vh;
+	background-image: url('../../assets/1.jpg');
+	background-position: center;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	@media only screen and (max-width: 768px) {
+		height: 60vh;
+	}
+	@media only screen and (min-width: 769px) and (max-width: 1023px) {
+		height: 100vh;
+	}
+}
+.right {
+	float: right;
 }
