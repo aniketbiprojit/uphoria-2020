@@ -1,0 +1,15 @@
+
+.Upper{
+  height:100vh;
+    background-image:url("../../assets/1.jpg");
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+        @media only  screen and (max-width:768px){
+            height:40vh;
+        }
+        @media only  screen and (min-width:769px) and (max-width:1023px){
+            height:40vh;
+        }
+}
